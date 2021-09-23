@@ -80,7 +80,7 @@ def covid_data(message):
   w = Weather()
   city, celsius, leiras = w.current('Debrecen')
 
-  bot.send_message(message.chat.id, f"Weather in {city} is {celsius} and {leiras}.")
+  bot.send_message(message.chat.id, f"Weather in {city} is {celsius} celsius and {leiras}.")
 
 
 bot.polling()
